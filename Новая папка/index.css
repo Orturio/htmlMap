@@ -10,7 +10,7 @@
 
  body{ 
 	background-image: url(https://img.gazeta.ru/files3/586/12823586/Depositphotos_252731150_xl-2015-pic4_zoom-1500x1500-35102.jpg);
-	background-size: 108% 102%;
+	background-size: cover;
 	height:100%;
 	width:100%;
 }
