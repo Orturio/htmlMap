@@ -1,13 +1,43 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Suez+One&display=swap');
-.map
-{
-    position: relative;
-    text-align: center;
-	margin-left: 200px;
+html {
+	width:100%;
+	height:100%;
+}
+.header {
+	border-bottom: 2px solid #000000;
 }
 
- body{ 
-	background-image: url(https://img.gazeta.ru/files3/586/12823586/Depositphotos_252731150_xl-2015-pic4_zoom-1500x1500-35102.jpg);
+.border-header {
+	margin:100px auto;
+	height:300px;
+	width:300px;
+	padding: 100px;
+}
+.text {
+	text-align:center; 
+	vertical-align: center;
+	position: relative;
+}
+.map {
+  position: relative;
+  text-align: center;
+	margin-top: 5%;
+	height:100%;
+	width:100%;
+	user-select:none;
+}
+
+
+body { 
+	background-size: cover;
+	height:100%;
+	width:100%;
+}
+
+
+#map {
+	height: 65%;
+	width: 65%;
 }
 
 svg
@@ -19,26 +49,24 @@ svg
     width: 100%;
 }
 
-path
-{
+path {
     opacity: 0.35;
     fill: #134DEA;
     cursor: pointer;
     transition: 0.3s;
 }
 
-path:hover
-{
+path:hover {
     opacity: 0.9;
     transition: 0.3s;
 }
 
-span{
+span {
 	color: green;
 	float:left;
 }
 
-.description{
+.description {
 	display: none;
 	position: absolute;
 	opacity: 0.9;
