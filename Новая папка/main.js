@@ -8,10 +8,7 @@ $('document').ready(function(){
 			// $('.description').fadeOut(50);
 		// }
 	// )
-	
-	// $('.part').on('click', function() {
-		// alert('Ты жмякнул по кнопке')
-	// })
+
 	
 	$('.part').on('click', function() {
 		$('.description').html($(this).attr('description-data'));
@@ -26,5 +23,7 @@ $('document').ready(function(){
 			div.hide(); // скрываем его
 		}
 	});
+	
+	
 });
 });
