@@ -3,7 +3,7 @@
 {
     position: relative;
     text-align: center;
-	margin-left: 100px;
+	margin-left: 65px;
 	height:100%;
 	width:100%;
 	user-select:none;
@@ -13,6 +13,11 @@
 	background-size: cover;
 	height:100%;
 	width:100%;
+}
+
+#map{
+	height: 65%;
+	width: 65%;
 }
 
 svg
