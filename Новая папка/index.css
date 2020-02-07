@@ -1,4 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Suez+One&display=swap');
+
+.header {
+  border-bottom: 2px solid #000000;
+}
+
+.header-border {
+  margin:50px auto;
+  height:200px;
+  width:200px;
+  padding: 50px;
+}
+.text {
+  text-align:center; 
+  vertical-align: center;
+  position: relative;
+}
 .map
 {
     position: relative;
@@ -67,6 +83,7 @@ form {
   position: relative;
   width: 300px;
   margin: 0 auto;
+  margin-top: 5%;
 }
 input {
   width: 100%;
